@@ -171,10 +171,8 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 |---|---|
 | `Notice` | Identificação inicial de itens, informações ou comportamentos presentes em uma situação. |
 | `Recognize` | Reconhecimento de exemplos, categorias ou padrões previamente apresentados. |
-| `Remember2` | Recordação de termos, definições ou informações anteriormente estudadas. |
+| `InformationRecall` | Recordação de termos, definições ou informações anteriormente estudadas. |
 | `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
-
----
 
 ### Understand — Compreender
 
@@ -185,8 +183,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `ConceptDiscussion` | Explicação e discussão de conceitos para demonstrar compreensão. |
 | `ReactionInference` | Inferência de reações pessoais ou profissionais diante de uma situação. |
 
----
-
 ### Apply — Aplicar
 
 | Classe | Significado |
@@ -196,7 +192,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `ProcedureExecution` | Execução de processos, uso de ferramentas ou resolução de problemas. |
 | `AdaptiveProcessUse` | Seleção ou adaptação de processos conforme necessidades e características do contexto. |
 
----
 
 ### Analyze — Analisar
 
@@ -207,8 +202,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `TheoryPracticeAnalysis` | Análise crítica da aplicação de fundamentos teóricos em situações práticas. |
 | `BiasAndLimitationIdentification` | Identificação de vieses, limitações ou restrições presentes em determinada perspectiva. |
 
----
-
 ### Evaluate — Avaliar
 
 | Classe | Significado |
@@ -217,8 +210,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `SolutionPrioritization` | Identificação e priorização da solução ou processo mais adequado. |
 | `CriticalAssessment` | Produção de julgamentos fundamentados, críticas ou justificativas sobre um produto ou desempenho. |
 | `AssessmentProcessAppraisal` | Reflexão crítica sobre processos, estratégias ou experiências avaliativas. |
-
----
 
 ### Create — Criar
 
@@ -230,12 +221,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `SelfImprovementPlanning` | Mapeamento de transformações pessoais e planejamento de melhorias. |
 
 ---
-
-## Observação de Modelagem
-
-A classe `Remember2` representa um objetivo avaliativo de recordação de informações, enquanto `Remember` representa o nível cognitivo da Taxonomia de Bloom. Para evitar ambiguidade terminológica na ontologia, recomenda-se substituir `Remember2` por `InformationRecall`.
-
-
 
 ### Uso de IA no processo avaliativo
 
