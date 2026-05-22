@@ -152,6 +152,11 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `PersonalizedFeedback` | Feedback personalizado | Retorno avaliativo adaptado às evidências e necessidades de um estudante. |
 | `LearningGap` | Lacuna de aprendizagem | Conhecimento, habilidade ou aspecto do desempenho que demanda desenvolvimento. |
 
+## Visão Níveis da Taxonomia de Bloom
+
+![Visão Principal](Images/bloom.jpg)
+
+
 ### Uso de IA no processo avaliativo
 
 | Classe | Termo em português | Descrição |
