@@ -154,7 +154,87 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ## Visão Níveis da Taxonomia de Bloom
 
-![Visão Principal](Images/bloom.jpg)
+![Visão Principal](Images/Niveisbloom.jpg)
+
+## Classes Centrais
+
+| Classe | Significado |
+|---|---|
+| `BloomTaxonomyLevel` | Nível cognitivo da Taxonomia Revisada de Bloom utilizado para organizar a complexidade das atividades avaliativas. |
+| `AssessmentGoal` | Objetivo avaliativo associado a um nível cognitivo, indicando a finalidade da atividade de avaliação. |
+
+---
+
+### Remember — Lembrar
+
+| Classe | Significado |
+|---|---|
+| `Notice` | Identificação inicial de itens, informações ou comportamentos presentes em uma situação. |
+| `Recognize` | Reconhecimento de exemplos, categorias ou padrões previamente apresentados. |
+| `Remember2` | Recordação de termos, definições ou informações anteriormente estudadas. |
+| `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
+
+---
+
+### Understand — Compreender
+
+| Classe | Significado |
+|---|---|
+| `ConceptOutline` | Identificação e síntese dos principais conceitos de um conteúdo. |
+| `AssociationMapping` | Organização de informações por associação, classificação ou relação temática. |
+| `ConceptDiscussion` | Explicação e discussão de conceitos para demonstrar compreensão. |
+| `ReactionInference` | Inferência de reações pessoais ou profissionais diante de uma situação. |
+
+---
+
+### Apply — Aplicar
+
+| Classe | Significado |
+|---|---|
+| `ProceduralAnswering` | Utilização de conhecimentos para responder a questões procedimentais em situações práticas. |
+| `SituationGuidance` | Recomendação da melhor forma de agir diante de uma situação contextualizada. |
+| `ProcedureExecution` | Execução de processos, uso de ferramentas ou resolução de problemas. |
+| `AdaptiveProcessUse` | Seleção ou adaptação de processos conforme necessidades e características do contexto. |
+
+---
+
+### Analyze — Analisar
+
+| Classe | Significado |
+|---|---|
+| `ProblemIdentification` | Identificação e organização de problemas relevantes em determinado contexto. |
+| `ComparativeAnalysis` | Comparação, diferenciação e classificação de ideias, elementos ou perspectivas. |
+| `TheoryPracticeAnalysis` | Análise crítica da aplicação de fundamentos teóricos em situações práticas. |
+| `BiasAndLimitationIdentification` | Identificação de vieses, limitações ou restrições presentes em determinada perspectiva. |
+
+---
+
+### Evaluate — Avaliar
+
+| Classe | Significado |
+|---|---|
+| `ComplianceAndConsistencyEvaluation` | Verificação da conformidade de procedimentos e da consistência de fontes ou ações. |
+| `SolutionPrioritization` | Identificação e priorização da solução ou processo mais adequado. |
+| `CriticalAssessment` | Produção de julgamentos fundamentados, críticas ou justificativas sobre um produto ou desempenho. |
+| `AssessmentProcessAppraisal` | Reflexão crítica sobre processos, estratégias ou experiências avaliativas. |
+
+---
+
+### Create — Criar
+
+| Classe | Significado |
+|---|---|
+| `ListDevelopment` | Desenvolvimento de lista original de ideias ou alternativas. |
+| `ProductComposition` | Organização de inter-relações para constituir um produto final. |
+| `SolutionDesign` | Invenção ou proposição de plano ou solução. |
+| `SelfImprovementPlanning` | Mapeamento de transformações pessoais e planejamento de melhorias. |
+
+---
+
+## Observação de Modelagem
+
+A classe `Remember2` representa um objetivo avaliativo de recordação de informações, enquanto `Remember` representa o nível cognitivo da Taxonomia de Bloom. Para evitar ambiguidade terminológica na ontologia, recomenda-se substituir `Remember2` por `InformationRecall`.
+
 
 
 ### Uso de IA no processo avaliativo
@@ -205,59 +285,7 @@ classDiagram
     AssessmentGoal <|-- SelfImprovementPlanning
 ```
 
-### Remember — Recordar
 
-| Classe | Significado |
-|---|---|
-| `Itemization` | Enumeração de itens relevantes. |
-| `Recognition` | Reconhecimento de ocorrências, exemplos ou padrões. |
-| `Recall` | Recordação de informações previamente aprendidas. |
-| `RetentionStrategy` | Identificação ou uso de estratégias para retenção de informações. |
-
-### Understand — Compreender
-
-| Classe | Significado |
-|---|---|
-| `ConceptOutline` | Esquematização ou síntese de conceitos-chave. |
-| `AssociationMapping` | Organização ou identificação de itens por associação. |
-| `ConceptDiscussion` | Explicação e discussão de um conceito. |
-| `ReactionInference` | Inferência de reação diante de informação ou situação. |
-
-### Apply — Aplicar
-
-| Classe | Significado |
-|---|---|
-| `ProceduralAnswering` | Resposta a questões relativas a procedimentos. |
-| `SituationGuidance` | Escolha ou recomendação da melhor forma de agir em uma situação. |
-| `ProcedureExecution` | Execução de procedimento, uso de programa ou resolução de problema. |
-| `AdaptiveProcessUse` | Emprego do processo mais adequado às necessidades ou habilidades envolvidas. |
-
-### Analyze — Analisar
-
-| Classe | Significado |
-|---|---|
-| `ProblemIdentification` | Identificação de problemas ou seleção de um conjunto mais completo de problemas. |
-| `ComparativeAnalysis` | Comparação, contraste, classificação, distinção ou exame de um fenômeno. |
-| `TheoryPracticeAnalysis` | Análise crítica da aplicação prática de uma teoria. |
-| `BiasAndLimitationIdentification` | Identificação de vieses e limitações de perspectiva. |
-
-### Evaluate — Avaliar
-
-| Classe | Significado |
-|---|---|
-| `ComplianceAndConsistencyEvaluation` | Avaliação do cumprimento de procedimentos e da consistência de fontes ou evidências. |
-| `SolutionPrioritization` | Seleção e priorização da melhor solução ou processo. |
-| `CriticalAssessment` | Avaliação, síntese, interpretação, justificativa ou crítica. |
-| `AssessmentProcessAppraisal` | Julgamento ou reflexão sobre o próprio processo avaliativo. |
-
-### Create — Criar
-
-| Classe | Significado |
-|---|---|
-| `ListDevelopment` | Desenvolvimento de lista original de ideias ou alternativas. |
-| `ProductComposition` | Organização de inter-relações para constituir um produto final. |
-| `SolutionDesign` | Invenção ou proposição de plano ou solução. |
-| `SelfImprovementPlanning` | Mapeamento de transformações pessoais e planejamento de melhorias. |
 
 ## Relações previstas
 
