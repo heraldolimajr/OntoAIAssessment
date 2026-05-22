@@ -128,69 +128,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ## Visão geral do modelo
 
-```mermaid
-classDiagram
-    class Teacher {
-      agente docente
-    }
-    class LearningObjectiveDefinition {
-      processo de definição
-    }
-    class AssessmentTask {
-      atividade avaliativa
-    }
-    class RubricCreation {
-      processo de criação
-    }
-    class QuestionCreation {
-      processo de criação
-    }
-    class PermittedAIUseLevelDefinition {
-      definição de limites
-    }
-    class BloomTaxonomyLevel {
-      nível cognitivo
-    }
-    class AssessmentGoal {
-      finalidade avaliativa
-    }
-    class CognitiveProcessVerb {
-      verbo cognitivo
-    }
-    class AIAssistedIdeation {
-      assistência por IA
-    }
-    class AIAssistedEditing {
-      assistência por IA
-    }
-    class HumanEvaluatedAICompletion {
-      assistência por IA
-    }
-    class AnswerGrading {
-      processo avaliativo
-    }
-    class PersonalizedFeedback {
-      resultado avaliativo
-    }
-    class LearningGap {
-      resultado identificado
-    }
-
-    Teacher --> LearningObjectiveDefinition : performs
-    Teacher --> RubricCreation : performs
-    Teacher --> QuestionCreation : performs
-    Teacher --> PermittedAIUseLevelDefinition : establishes
-    LearningObjectiveDefinition --> AssessmentTask : guides
-    AssessmentTask --> BloomTaxonomyLevel : targets
-    AssessmentTask --> AssessmentGoal : hasGoal
-    AssessmentGoal --> CognitiveProcessVerb : expressedBy
-    AssessmentTask --> AIAssistedIdeation : mayAllow
-    AssessmentTask --> AIAssistedEditing : mayAllow
-    AssessmentTask --> HumanEvaluatedAICompletion : mayAllow
-    AssessmentTask --> AnswerGrading : evaluatedThrough
-    AnswerGrading --> PersonalizedFeedback : produces
-    AnswerGrading --> LearningGap : identifies
-```
+![Visão Principal](Images/Principal.jpg)
 
 ## Classes principais
 
