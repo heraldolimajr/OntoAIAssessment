@@ -130,9 +130,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ![Visão Principal](Images/Principal.jpg)
 
-## Classes principais
-
-### Planejamento, atores e artefatos avaliativos
+### Descrição das Classes
 
 | Classe | Termo em português | Descrição |
 |---|---|---|
