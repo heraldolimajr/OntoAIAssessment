@@ -248,39 +248,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `CognitiveProcessVerb` | Verbo do processo cognitivo | Verbo que expressa a ação cognitiva esperada em um objetivo de aprendizagem. |
 
 
-## Objetivos de avaliação por nível de Bloom
-
-As classes desta seção podem ser especializações de `AssessmentGoal`.
-
-```mermaid
-classDiagram
-    AssessmentGoal <|-- Itemization
-    AssessmentGoal <|-- Recognition
-    AssessmentGoal <|-- Recall
-    AssessmentGoal <|-- RetentionStrategy
-    AssessmentGoal <|-- ConceptOutline
-    AssessmentGoal <|-- AssociationMapping
-    AssessmentGoal <|-- ConceptDiscussion
-    AssessmentGoal <|-- ReactionInference
-    AssessmentGoal <|-- ProceduralAnswering
-    AssessmentGoal <|-- SituationGuidance
-    AssessmentGoal <|-- ProcedureExecution
-    AssessmentGoal <|-- AdaptiveProcessUse
-    AssessmentGoal <|-- ProblemIdentification
-    AssessmentGoal <|-- ComparativeAnalysis
-    AssessmentGoal <|-- TheoryPracticeAnalysis
-    AssessmentGoal <|-- BiasAndLimitationIdentification
-    AssessmentGoal <|-- ComplianceAndConsistencyEvaluation
-    AssessmentGoal <|-- SolutionPrioritization
-    AssessmentGoal <|-- CriticalAssessment
-    AssessmentGoal <|-- AssessmentProcessAppraisal
-    AssessmentGoal <|-- ListDevelopment
-    AssessmentGoal <|-- ProductComposition
-    AssessmentGoal <|-- SolutionDesign
-    AssessmentGoal <|-- SelfImprovementPlanning
-```
-
-
 
 ## Relações previstas
 
@@ -359,34 +326,6 @@ ontoavalia:ideaGenerationSupport a ontoavalia:AIAssistedIdeation .
 2. Proponha extensões, como competências colaborativas, políticas institucionais ou evidências de aprendizagem.
 3. Registre novos cenários de uso e resultados de validação na pasta `validation/`.
 
-## Estrutura recomendada do repositório
-
-```text
-ontoavalia/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── ontology/
-│   ├── ontoavalia.owl
-│   ├── ontoavalia.ttl
-│   └── ontoavalia.jsonld
-├── docs/
-│   ├── glossary.md
-│   ├── competency-questions.md
-│   ├── conceptual-model.md
-│   └── methodology.md
-├── diagrams/
-│   ├── ontoavalia-ontouml.svg
-│   └── assessment-goal-hierarchy.svg
-├── examples/
-│   ├── assessment-task-example.ttl
-│   └── sparql-queries.md
-├── validation/
-│   ├── cq-validation-results.md
-│   └── expert-evaluation.md
-└── references/
-    └── sources.bib
-```
 
 ## Artefatos e documentação
 
