@@ -130,25 +130,35 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ![Visão Principal](Images/Principal.jpg)
 
-### Descrição das Classes
+### Classes Centrais
 
 | Classe | Termo em português | Descrição |
 |---|---|---|
 | `Instructor` | Professor | Agente responsável pelo planejamento, condução ou avaliação da aprendizagem. |
+| `AssessmentTask` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
+| `GenAI` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
+
+### Etapas Avaliativas
+
+| Classe | Termo em português | Descrição |
+|---|---|---|
 | `AssessmentProcess` | Etapas do processo de avaliação da aprendizagem. |
 | `Planning` | Etapas do processo de avaliação da aprendizagem. |
-| `Preparation` | Preparation. |
-| `SummativeAssessment` | Preparation. |
-| `Analysis` | Preparation. |
-| `Feedback` | Preparation. |
-| `Reflection` | Preparation. |
 | `LearningOutcomesDefinition` | Definição dos resultados de aprendizagem de aprendizagem | Processo de estabelecer resultados de aprendizagem que orientam atividades e avaliações. |
 | `RubricCreation` | Criação de rubricas | Processo de elaborar critérios e níveis de desempenho para uma avaliação. |
 | `AssessmentGoal` | Objetivo da avaliação | Finalidade avaliativa associada a um nível de Bloom e a uma dimensão do conhecimento. |
 | `QuestionCreation` | Criação de questões | Processo de formular perguntas ou itens de uma tarefa avaliativa. |
 | `PermittedAIUseLevelDefinition` | Definição dos níveis permitidos de uso de IA | Processo de estabelecer limites e formas autorizadas de participação da IA. |
-| `AssessmentTask` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
+| `Preparation` | Preparation. |
+| `FormativeAssessment` | Preparation. |
+| `SummativeAssessment` | Preparation. |
+| `Analysis` | Preparation. |
 | `AnswerGrading` | Correção de respostas | Processo de examinar respostas e emitir julgamento avaliativo. |
+| `Feedback` | Preparation. |
+| `Reflection` | Preparation. |
+
+| `AssessmentTask` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
+
 | `PersonalizedFeedback` | Feedback personalizado | Retorno avaliativo adaptado às evidências e necessidades de um estudante. |
 | `LearningGap` | Lacuna de aprendizagem | Conhecimento, habilidade ou aspecto do desempenho que demanda desenvolvimento. |
 
@@ -156,7 +166,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ![Visão Principal](Images/Niveisbloom.jpg)
 
-## Classes Centrais
+### Classes Centrais
 
 | Classe | Significado |
 |---|---|
