@@ -49,31 +49,10 @@ A ontologia busca tornar explícitas perguntas como:
 
 ## Objetivo
 
-O objetivo da `OntoAvalIA` é representar formalmente conceitos e relações necessários para recomendar e analisar usos de IAGen em atividades avaliativas, considerando:
-
-1. o planejamento de objetivos, questões e rubricas;
-2. os níveis cognitivos e objetivos de avaliação da Taxonomia Revisada de Bloom;
-3. o tipo e o limite de participação da IA na atividade;
-4. a correção de respostas, a identificação de lacunas e a oferta de feedback personalizado.
+O objetivo da `OntoAvalIA` é representar formalmente conceitos e relações necessários para recomendar e analisar usos de IAGen em atividades avaliativas, considerando os níveis cognitivos e objetivos de avaliação da Taxonomia Revisada de Bloom e o tipo e o limite de participação da IA na atividade.
 
 ## Escopo
-
-### Incluído no domínio
-
-- planejamento de objetivos de aprendizagem;
-- elaboração de rubricas e questões avaliativas;
-- definição de níveis permitidos de uso de IA;
-- tarefas avaliativas formativas e somativas;
-- níveis e objetivos de avaliação associados à Taxonomia Revisada de Bloom;
-- modalidades de assistência por IAGen;
-- correção, feedback personalizado e identificação de lacunas de aprendizagem.
-
-### Fora do escopo atual
-
-- implementação de detectores de plágio ou de texto produzido por IA;
-- avaliação automática definitiva sem supervisão humana;
-- representação detalhada de políticas institucionais específicas;
-- modelagem completa de competências colaborativas ou socioemocionais, que poderá ser incorporada em versões futuras.
+Avaliação da aprendizagem no ensino superior a distância, apoiada por ferramentas de Inteligência Artificial Generativa (IAGen) e orientada pela supervisão humana, abrangendo o planejamento, a aplicação, a análise de resultados, a produção de feedback e a reflexão sobre o processo avaliativo.
 
 ## Usuários e usos pretendidos
 
@@ -105,7 +84,10 @@ A ontologia articula quatro eixos centrais:
 | Inteligência Artificial Generativa | Representa formas de apoio da IA na geração, edição ou conclusão de tarefas. |
 | Responsabilidade humana | Preserva a definição dos limites de uso, a supervisão e o julgamento avaliativo. |
 
-Os objetivos de avaliação associados aos níveis de Bloom foram adaptados da coluna `Goal of Assessment` do *Assessment Framework for Generative AI*, proposta por Page, Meyers e Krahe Billings (2024).
+- As etapas do processo avaliativo foram adaptadas do modelo proposto por Ilieva et al. (2025).
+- Os objetivos de avaliação associados aos níveis de Bloom foram adaptados do framework proposto por Page, Meyers e Krahe Billings (2024).
+- A taxonomia de IAGen utilizada foi adaptada do trabalho de Strobel et al. (2024).
+- Os limites de uso de IAGen foram definidos com base na escala proposta por Perkins et al. (2024).
 
 ## Questões de competência
 
