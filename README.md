@@ -257,6 +257,9 @@ A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As
 |---|---|
 | `componentOf` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 | `historicalDependence` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `creation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `participation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `participacional` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 
 ## Exemplo de aplicação
 
