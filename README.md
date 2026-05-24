@@ -253,18 +253,10 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As relações devem ser confirmadas durante a formalização da ontologia.
 
-| Propriedade | Domínio | Alcance | Significado |
-|---|---|---|---|
-| `performs` | `Teacher` | Processo avaliativo | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
-| `guides` | `LearningObjectiveDefinition` | `AssessmentTask` | Indica que a definição de objetivo orienta a tarefa avaliativa. |
-| `hasGoal` | `AssessmentTask` | `AssessmentGoal` | Associa uma tarefa ao seu objetivo de avaliação. |
-| `targetsBloomLevel` | `AssessmentTask` | `BloomTaxonomyLevel` | Relaciona a tarefa ao nível cognitivo pretendido. |
-| `expressedBy` | `AssessmentGoal` | `CognitiveProcessVerb` | Indica o verbo cognitivo que expressa o objetivo. |
-| `allowsAIUse` | `AssessmentTask` | Uso de IA | Relaciona a tarefa ao tipo de participação de IA autorizado. |
-| `hasPermittedAIUseLevel` | `AssessmentTask` | `PermittedAIUseLevelDefinition` | Associa a tarefa ao limite definido para uso de IA. |
-| `evaluatedThrough` | `AssessmentTask` | `AnswerGrading` | Relaciona uma tarefa ao processo de correção. |
-| `producesFeedback` | `AnswerGrading` | `PersonalizedFeedback` | Indica o feedback resultante da correção. |
-| `identifiesGap` | `AnswerGrading` | `LearningGap` | Indica a lacuna identificada na avaliação. |
+| Estereótipo | Significado |
+|---|---|
+| `componentOf` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `historicalDependence` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 
 ## Exemplo de aplicação
 
@@ -561,37 +553,6 @@ As classes a seguir podem ser modeladas como especializações de `AssessmentGoa
 | `ProductComposition` | Composição de produto | Objetivo de organizar intencionalmente inter-relações para constituir um produto final. |
 | `SolutionDesign` | Projeto de solução | Objetivo de inventar ou propor um plano ou solução. |
 | `SelfImprovementPlanning` | Planejamento de autoaperfeiçoamento | Objetivo de mapear mudanças pessoais e planejar melhorias. |
-
-## Hierarquia sugerida para `AssessmentGoal`
-
-```mermaid
-classDiagram
-    class AssessmentGoal
-    AssessmentGoal <|-- Itemization
-    AssessmentGoal <|-- Recognition
-    AssessmentGoal <|-- Recall
-    AssessmentGoal <|-- RetentionStrategy
-    AssessmentGoal <|-- ConceptOutline
-    AssessmentGoal <|-- AssociationMapping
-    AssessmentGoal <|-- ConceptDiscussion
-    AssessmentGoal <|-- ReactionInference
-    AssessmentGoal <|-- ProceduralAnswering
-    AssessmentGoal <|-- SituationGuidance
-    AssessmentGoal <|-- ProcedureExecution
-    AssessmentGoal <|-- AdaptiveProcessUse
-    AssessmentGoal <|-- ProblemIdentification
-    AssessmentGoal <|-- ComparativeAnalysis
-    AssessmentGoal <|-- TheoryPracticeAnalysis
-    AssessmentGoal <|-- BiasAndLimitationIdentification
-    AssessmentGoal <|-- ComplianceAndConsistencyEvaluation
-    AssessmentGoal <|-- SolutionPrioritization
-    AssessmentGoal <|-- CriticalAssessment
-    AssessmentGoal <|-- AssessmentProcessAppraisal
-    AssessmentGoal <|-- ListDevelopment
-    AssessmentGoal <|-- ProductComposition
-    AssessmentGoal <|-- SolutionDesign
-    AssessmentGoal <|-- SelfImprovementPlanning
-```
 
 ## Nomes alternativos ou refinados durante a modelagem
 
