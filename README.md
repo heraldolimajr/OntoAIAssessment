@@ -89,24 +89,25 @@ A ontologia articula quatro eixos centrais:
 - A taxonomia de IAGen utilizada foi adaptada do trabalho de Strobel et al. (2024).
 - Os limites de uso de IAGen foram definidos com base na escala proposta por Perkins et al. (2024).
 
+## Requisitos Não Funcionais
+
+Os requisitos não funcionais estabelecem características de qualidade, fundamentação ontológica e acessibilidade que devem orientar o desenvolvimento, a documentação e a disponibilização da ontologia.
+
+| ID | Requisito Não Funcional | Descrição | Critério de Verificação |
+|---|---|---|---|
+| RNF1 | Disponibilização em repositório público | A ontologia e seus artefatos associados deverão ser disponibilizados publicamente em um repositório no GitHub. | Existência de repositório público contendo arquivos da ontologia, documentação, licença e orientações de uso. |
+| RNF2 | Fundamentação na UFO | A modelagem conceitual da ontologia deverá utilizar a Unified Foundational Ontology (UFO) como ontologia de fundamentação. | Identificação dos conceitos fundamentados em categorias da UFO e disponibilização do modelo conceitual correspondente, preferencialmente em OntoUML. |
+| RNF3 | Documentação bilíngue | A documentação principal da ontologia deverá estar disponível em português e inglês. | Existência de documentação nos dois idiomas, incluindo apresentação, escopo, classes principais, relações e instruções de uso. |
+
 ## Questões de competência
 
 As questões de competência orientam a modelagem e poderão ser utilizadas na validação da ontologia.
 
 | ID | Questão de competência |
 |---|---|
-| `CQ01` | Quais objetivos de aprendizagem estão associados a uma tarefa avaliativa? |
-| `CQ02` | Qual nível da Taxonomia de Bloom é trabalhado por uma tarefa avaliativa? |
-| `CQ03` | Quais objetivos de avaliação podem ser mobilizados em determinado nível de Bloom? |
-| `CQ04` | Quais formas de uso de IA são permitidas em uma tarefa avaliativa? |
-| `CQ05` | Qual tipo de assistência de IA é compatível com determinado objetivo de avaliação? |
-| `CQ06` | Quais tarefas permitem ideação assistida por IA? |
-| `CQ07` | Quais tarefas permitem edição assistida por IA? |
-| `CQ08` | Em quais tarefas a IA pode executar uma produção desde que haja avaliação humana? |
-| `CQ09` | Quais rubricas e questões foram criadas para avaliar determinado objetivo de aprendizagem? |
-| `CQ10` | Qual feedback personalizado foi produzido a partir da correção de uma resposta? |
-| `CQ11` | Quais lacunas de aprendizagem foram identificadas para um estudante? |
-| `CQ12` | Quais atividades avaliativas demandam revisão humana obrigatória do conteúdo produzido com IA? |
+| `CQ01` | QC1 — Quais [AssessmentTask] ocorrem em [AssessmentProcessStage]? |
+| `CQ02` | Quais [AIUseLevel] são recomendados para [AssessmentTask]? |
+| `CQ04` | Quais [GenAI] apoiam [AssessmentTask]? |
 
 ## Visão geral do modelo
 
