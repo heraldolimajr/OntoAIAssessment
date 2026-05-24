@@ -105,9 +105,9 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 | ID | Questão de competência |
 |---|---|
-| `CQ01` | QC1 — Quais [AssessmentTask] ocorrem em [AssessmentProcessStage]? |
-| `CQ02` | Quais [AIUseLevel] são recomendados para [AssessmentTask]? |
-| `CQ04` | Quais [GenAI] apoiam [AssessmentTask]? |
+| `CQ01` | QC1 — Quais `AssessmentTask` ocorrem em `AssessmentProcessStage`? |
+| `CQ02` | Quais `AIUseLevel` são recomendados para `AssessmentTask`? |
+| `CQ03` | Quais `GenAI` apoiam `AssessmentTask`? |
 
 ## Visão geral do modelo
 
