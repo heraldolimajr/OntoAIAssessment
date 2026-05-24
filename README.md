@@ -259,7 +259,7 @@ A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As
 | `historicalDependence` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 | `creation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 | `participation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
-| `participacional` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `participational` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 
 ## Exemplo de aplicação
 
@@ -337,14 +337,6 @@ ontoavalia:ideaGenerationSupport a ontoavalia:AIAssistedIdeation .
 
 ## Convenções de nomenclatura
 
-| Elemento | Convenção | Exemplo |
-|---|---|---|
-| Classes | Inglês e `PascalCase` | `AssessmentTask` |
-| Propriedades de objeto | Inglês e `camelCase` | `hasGoal` |
-| Propriedades de dados | Inglês e `camelCase` | `hasDescription` |
-| Instâncias | Inglês e `camelCase` | `createLevel` |
-| Prefixo sugerido | Minúsculas | `ontoavalia:` |
-| Termos em português | Documentados como rótulos | `rdfs:label "Tarefa avaliativa"@pt` |
 
 ### Nomes alternativos registrados durante a modelagem
 
@@ -382,26 +374,14 @@ A evolução da ontologia poderá seguir um ciclo iterativo de especificação, 
 | Cenários de uso | Observar a aplicabilidade em tarefas avaliativas reais ou simuladas. |
 | Revisão de terminologia | Ajustar nomes, definições e hierarquias conforme evidências e feedback. |
 
-### Estado atual
-
-| Dimensão | Estado |
-|---|---|
-| Definição inicial do domínio | Concluída |
-| Glossário inicial de classes | Concluído |
-| Objetivos de avaliação vinculados a Bloom | Concluídos em nível conceitual |
-| Relações iniciais | Propostas, aguardando validação |
-| Modelo OntoUML completo | Em elaboração |
-| Implementação OWL/RDF | Planejada |
-| Validação com especialistas | Planejada |
-
 ## Como citar
 
 Enquanto a ontologia estiver em desenvolvimento e sem publicação formal, recomenda-se utilizar a seguinte referência provisória, ajustando ano, URL e versão no momento de disponibilização pública:
 
 ```bibtex
 @misc{ontoavalia2026,
-  author       = {Lima Junior, Heraldo Gonçalves},
-  title        = {OntoAvalIA: Ontologia para Avaliação da Aprendizagem com Inteligência Artificial Generativa},
+  author       = {Lima Junior, Heraldo Gonçalves and Silva, Patrício},
+  title        = {OntoAvalIA: Ontologia para Avaliação da Aprendizagem Apoiada por Inteligência Artificial Generativa},
   year         = {2026},
   howpublished = {Repositório GitHub},
   note         = {Versão em desenvolvimento},
