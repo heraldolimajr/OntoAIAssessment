@@ -11,8 +11,6 @@
   <img alt="Modelagem" src="https://img.shields.io/badge/modelagem-OntoUML%20%7C%20OWL-green" />
 </p>
 
-> `OntoAvalIA` é um nome provisório para a ontologia. Ele pode ser substituído pelo nome oficial do projeto antes da publicação do repositório.
-
 ## Sumário
 
 - [Sobre a ontologia](#sobre-a-ontologia)
@@ -79,15 +77,11 @@ A ontologia articula quatro eixos centrais:
 
 | Eixo | Papel na ontologia |
 |---|---|
-| Processo avaliativo | Representa planejamento, tarefa, correção, feedback e identificação de lacunas. |
-| Taxonomia Revisada de Bloom | Organiza níveis cognitivos e objetivos de avaliação. |
-| Inteligência Artificial Generativa | Representa formas de apoio da IA na geração, edição ou conclusão de tarefas. |
-| Responsabilidade humana | Preserva a definição dos limites de uso, a supervisão e o julgamento avaliativo. |
-
-- As etapas do processo avaliativo foram adaptadas do modelo proposto por Ilieva et al. (2025).
-- Os objetivos de avaliação associados aos níveis de Bloom foram adaptados do framework proposto por Page, Meyers e Krahe Billings (2024).
-- A taxonomia de IAGen utilizada foi adaptada do trabalho de Strobel et al. (2024).
-- Os limites de uso de IAGen foram definidos com base na escala proposta por Perkins et al. (2024).
+| Processo avaliativo | As etapas do processo avaliativo foram adaptadas do modelo proposto por Ilieva et al. (2025). |
+| Taxonomia Revisada de Bloom | Os objetivos de avaliação associados aos níveis de Bloom foram adaptados do framework proposto por Page, Meyers e Krahe Billings (2024). |
+| Inteligência Artificial Generativa | A taxonomia dos tipos de IAGen utilizada foi adaptada do trabalho de Strobel et al. (2024). |
+| Responsabilidade humana | Os limites de uso de IAGen foram definidos com base na escala proposta por Perkins et al. (2024). |
+| Validade do Construto | Os critérios de qualidade do construto avaliativo apoiado por IAGen foram definidos com base no trabalho de Kaldaras, Akaeze e Reckase (2024). |
 
 ## Requisitos Não Funcionais
 
@@ -543,5 +537,8 @@ As classes a seguir podem ser modeladas como especializações de `AssessmentGoa
 
 ## Referência de origem dos objetivos de avaliação
 
-PAGE, Eric; MEYERS, Gretchen; KRAHE BILLINGS, Eve. Theory to practice: an assessment framework for generative AI. *Intersection: A Journal at the Intersection of Assessment and Learning*, v. 5, n. 4, p. 114-126, 2024. Ver especialmente o Apêndice B, p. 126.
+KALDARAS, Leonora; AKAEZE, Hope O.; RECKASE, Mark D. Developing valid assessments in the era of generative artificial intelligence. In: Frontiers in education. Frontiers Media SA, 2024. p. 1399377.
+
+PAGE, Eric; MEYERS, Gretchen; BILLINGS, Eve Krahe. Theory to Practice: A Framework for Generative AI. Intersection: A Journal at the Intersection of Assessment and Learning, v. 5, n. 4, p. 114-126, 2024.
+
 
