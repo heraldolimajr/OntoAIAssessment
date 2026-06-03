@@ -71,7 +71,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `CQ01` | Quais `AssessmentTask` ocorrem em `AssessmentProcessStage`? |
 | `CQ02` | Quais `AIUseLevel` são recomendados para `AssessmentTask`? |
 | `CQ03` | Quais `GenAI` apoiam `AssessmentTask`? |
-| `CQ04` | Quais  'ConstructValidityCheck' são considerados em 'AssessmentTask`? |
+| `CQ04` | Quais  `ConstructValidityCheck` são considerados em `AssessmentTask`? |
 
 ## 7. Visão geral do modelo
 
