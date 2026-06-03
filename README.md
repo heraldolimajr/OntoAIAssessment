@@ -366,31 +366,6 @@ Enquanto a ontologia estiver em desenvolvimento e sem publicação formal, recom
 }
 ```
 
-### Citação do framework que fundamenta os objetivos avaliativos
-
-```bibtex
-@article{page2024assessmentframework,
-  author  = {Page, Eric and Meyers, Gretchen and Krahe Billings, Eve},
-  title   = {Theory to Practice: An Assessment Framework for Generative AI},
-  journal = {Intersection: A Journal at the Intersection of Assessment and Learning},
-  volume  = {5},
-  number  = {4},
-  pages   = {114--126},
-  year    = {2024}
-}
-```
-
-## Contribuição
-
-Contribuições podem incluir:
-
-- sugestão de novas classes, propriedades ou definições;
-- revisão das questões de competência;
-- proposição de cenários avaliativos com uso responsável de IAGen;
-- submissão de consultas SPARQL e testes de validação;
-- revisão linguística dos rótulos em português e inglês.
-
-Ao publicar o repositório, recomenda-se disponibilizar um arquivo `CONTRIBUTING.md` com orientações para abertura de *issues* e envio de *pull requests*.
 
 ## Licença
 
@@ -398,21 +373,11 @@ A licença da ontologia e de sua documentação deve ser definida antes da publi
 
 Substitua esta seção pela licença efetivamente adotada e inclua o arquivo `LICENSE` na raiz do repositório.
 
-## Financiamento e agradecimentos
-
-Preencher esta seção conforme as fontes de financiamento e apoios efetivamente associados ao desenvolvimento da ontologia. Quando aplicável, inserir o agradecimento institucional à CAPES conforme a redação exigida para a produção científica vinculada ao financiamento.
-
 ## Referências
 
-- Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., Raths, J., & Wittrock, M. C. (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom’s taxonomy of educational objectives*. Longman.
-- Page, E., Meyers, G., & Krahe Billings, E. (2024). Theory to practice: An assessment framework for generative AI. *Intersection: A Journal at the Intersection of Assessment and Learning, 5*(4), 114–126.
+KALDARAS, Leonora; AKAEZE, Hope O.; RECKASE, Mark D. Developing valid assessments in the era of generative artificial intelligence. In: Frontiers in education. Frontiers Media SA, 2024. p. 1399377.
 
----
-
-<p align="center">
-  Ontologia em desenvolvimento para apoiar avaliações educacionais transparentes, pedagogicamente coerentes e responsáveis no contexto da IA generativa.
-</p>
-
+PAGE, Eric; MEYERS, Gretchen; BILLINGS, Eve Krahe. Theory to Practice: A Framework for Generative AI. Intersection: A Journal at the Intersection of Assessment and Learning, v. 5, n. 4, p. 114-126, 2024.
 
 
 
@@ -537,8 +502,6 @@ As classes a seguir podem ser modeladas como especializações de `AssessmentGoa
 
 ## Referência de origem dos objetivos de avaliação
 
-KALDARAS, Leonora; AKAEZE, Hope O.; RECKASE, Mark D. Developing valid assessments in the era of generative artificial intelligence. In: Frontiers in education. Frontiers Media SA, 2024. p. 1399377.
 
-PAGE, Eric; MEYERS, Gretchen; BILLINGS, Eve Krahe. Theory to Practice: A Framework for Generative AI. Intersection: A Journal at the Intersection of Assessment and Learning, v. 5, n. 4, p. 114-126, 2024.
 
 
