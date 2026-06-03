@@ -211,30 +211,6 @@ A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As
 | `participation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 | `participational` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 
-
----
-|
-|
-\
-\
-\
-\
-
-### Uso de IA no processo avaliativo
-
-| Classe | Termo em português | Descrição |
-|---|---|---|
-| `AIAssistedIdeation` | Ideação assistida por IA | Uso da IA para gerar, explorar ou organizar ideias iniciais. |
-| `AIAssistedEditing` | Edição assistida por IA | Uso da IA para revisar, aperfeiçoar ou reorganizar conteúdo produzido. |
-| `HumanEvaluatedAICompletion` | Execução pela IA com avaliação humana | Uso em que a IA realiza parte ou toda a tarefa, com análise crítica humana do resultado. |
-
-### Estruturas cognitivas e avaliativas
-
-| Classe | Termo em português | Descrição |
-|---|---|---|
-| `BloomTaxonomyLevel` | Nível da Taxonomia de Bloom | Categoria cognitiva: recordar, compreender, aplicar, analisar, avaliar ou criar. |
-| `CognitiveProcessVerb` | Verbo do processo cognitivo | Verbo que expressa a ação cognitiva esperada em um objetivo de aprendizagem. |
-
 ## Como citar
 
 Enquanto a ontologia estiver em desenvolvimento e sem publicação formal, recomenda-se utilizar a seguinte referência provisória, ajustando ano, URL e versão no momento de disponibilização pública:
@@ -263,6 +239,30 @@ KALDARAS, Leonora; AKAEZE, Hope O.; RECKASE, Mark D. Developing valid assessment
 
 PAGE, Eric; MEYERS, Gretchen; BILLINGS, Eve Krahe. Theory to Practice: A Framework for Generative AI. Intersection: A Journal at the Intersection of Assessment and Learning, v. 5, n. 4, p. 114-126, 2024.
 
+
+
+---
+|
+|
+\
+\
+\
+\
+
+### Uso de IA no processo avaliativo
+
+| Classe | Termo em português | Descrição |
+|---|---|---|
+| `AIAssistedIdeation` | Ideação assistida por IA | Uso da IA para gerar, explorar ou organizar ideias iniciais. |
+| `AIAssistedEditing` | Edição assistida por IA | Uso da IA para revisar, aperfeiçoar ou reorganizar conteúdo produzido. |
+| `HumanEvaluatedAICompletion` | Execução pela IA com avaliação humana | Uso em que a IA realiza parte ou toda a tarefa, com análise crítica humana do resultado. |
+
+### Estruturas cognitivas e avaliativas
+
+| Classe | Termo em português | Descrição |
+|---|---|---|
+| `BloomTaxonomyLevel` | Nível da Taxonomia de Bloom | Categoria cognitiva: recordar, compreender, aplicar, analisar, avaliar ou criar. |
+| `CognitiveProcessVerb` | Verbo do processo cognitivo | Verbo que expressa a ação cognitiva esperada em um objetivo de aprendizagem. |
 
 
 # Glossário de classes para a ontologia de avaliação com IA generativa
