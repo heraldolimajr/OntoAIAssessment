@@ -1,40 +1,10 @@
 # OntoAvalIA
 
 <p align="center">
-  Ontologia para apoiar o planejamento e a avaliação da aprendizagem com uso responsável de Inteligência Artificial Generativa
-</p>
-
-<p align="center">
-  <img alt="Status" src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
-  <img alt="Domínio" src="https://img.shields.io/badge/dom%C3%ADnio-avalia%C3%A7%C3%A3o%20educacional-blue" />
+  <img alt="Domínio" src="https://img.shields.io/badge/dom%C3%ADnio-Avalia%C3%A7%C3%A3o%20da%20Aprendizagem-blue" />
   <img alt="Tecnologia" src="https://img.shields.io/badge/tecnologia-IA%20Generativa-purple" />
-  <img alt="Modelagem" src="https://img.shields.io/badge/modelagem-OntoUML%20%7C%20OWL-green" />
+  <img alt="Modelagem" src="https://img.shields.io/badge/modelagem-OntoUML-green" />
 </p>
-
-## Sumário
-
-- [Sobre a ontologia](#sobre-a-ontologia)
-- [Objetivo](#objetivo)
-- [Escopo](#escopo)
-- [Usuários e usos pretendidos](#usuários-e-usos-pretendidos)
-- [Fundamentação conceitual](#fundamentação-conceitual)
-- [Questões de competência](#questões-de-competência)
-- [Visão geral do modelo](#visão-geral-do-modelo)
-- [Classes principais](#classes-principais)
-- [Objetivos de avaliação por nível de Bloom](#objetivos-de-avaliação-por-nível-de-bloom)
-- [Relações previstas](#relações-previstas)
-- [Exemplo de aplicação](#exemplo-de-aplicação)
-- [Como utilizar](#como-utilizar)
-- [Estrutura recomendada do repositório](#estrutura-recomendada-do-repositório)
-- [Artefatos e documentação](#artefatos-e-documentação)
-- [Convenções de nomenclatura](#convenções-de-nomenclatura)
-- [Validação e evolução](#validação-e-evolução)
-- [Como citar](#como-citar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Referências](#referências)
-
-## Sobre a ontologia
 
 A `OntoAvalIA` é uma ontologia educacional voltada ao apoio de professores no planejamento e na condução de processos avaliativos mediados ou apoiados por Inteligência Artificial Generativa (IAGen). A proposta relaciona atividades do processo avaliativo, níveis da Taxonomia Revisada de Bloom, objetivos de avaliação e formas permitidas de uso de IA.
 
@@ -45,16 +15,16 @@ A ontologia busca tornar explícitas perguntas como:
 - como a IA pode apoiar uma atividade sem substituir indevidamente a autoria ou o julgamento humano;
 - quais feedbacks e lacunas de aprendizagem podem ser identificados a partir da avaliação.
 
-## Objetivo
+## 1. Objetivo
 
 O objetivo da `OntoAvalIA` é representar formalmente conceitos e relações necessários para recomendar e analisar usos de IAGen em atividades avaliativas, considerando os níveis cognitivos e objetivos de avaliação da Taxonomia Revisada de Bloom e o tipo e o limite de participação da IA na atividade.
 
-## Escopo
+## 2. Escopo
 Avaliação da aprendizagem no ensino superior a distância, apoiada por ferramentas de Inteligência Artificial Generativa (IAGen) e orientada pela supervisão humana, abrangendo o planejamento, a aplicação, a análise de resultados, a produção de feedback e a reflexão sobre o processo avaliativo.
 
-## Usuários e usos pretendidos
+## 3. Usuários e usos pretendidos
 
-### Usuários finais
+### 3.1. Usuários finais
 
 | Usuário | Necessidade apoiada pela ontologia |
 |---|---|
@@ -63,7 +33,7 @@ Avaliação da aprendizagem no ensino superior a distância, apoiada por ferrame
 | Desenvolvedores de AVAs e softwares educativos | Implementar módulos de recomendação, configuração e rastreabilidade de usos de IA em avaliações. |
 | Pesquisadores em educação e informática na educação | Investigar relações entre objetivos cognitivos, avaliação e IAGen. |
 
-### Usos pretendidos
+### 3.2. Usos pretendidos
 
 | Código | Uso pretendido | Descrição |
 |---|---|---|
@@ -71,11 +41,11 @@ Avaliação da aprendizagem no ensino superior a distância, apoiada por ferrame
 | `UP2` | Melhoria das práticas avaliativas | Apoiar a seleção de formas de uso da IA coerentes com objetivos de aprendizagem e critérios avaliativos. |
 | `UP3` | Desenvolvimento de software educacional | Subsidiar a implementação de módulos avaliativos ou plugins para AVAs. |
 
-## Fundamentação conceitual
+## 4. Fundamentação conceitual
 
 A ontologia articula quatro eixos centrais:
 
-| Eixo | Papel na ontologia |
+| Eixo | Referências |
 |---|---|
 | Processo avaliativo | As etapas do processo avaliativo foram adaptadas do modelo proposto por Ilieva et al. (2025). |
 | Taxonomia Revisada de Bloom | Os objetivos de avaliação associados aos níveis de Bloom foram adaptados do framework proposto por Page, Meyers e Krahe Billings (2024). |
@@ -83,7 +53,7 @@ A ontologia articula quatro eixos centrais:
 | Responsabilidade humana | Os limites de uso de IAGen foram definidos com base na escala proposta por Perkins et al. (2024). |
 | Validade do Construto | Os critérios de qualidade do construto avaliativo apoiado por IAGen foram definidos com base no trabalho de Kaldaras, Akaeze e Reckase (2024). |
 
-## Requisitos Não Funcionais
+## 5. Requisitos Não Funcionais
 
 Os requisitos não funcionais estabelecem características de qualidade, fundamentação ontológica e acessibilidade que devem orientar o desenvolvimento, a documentação e a disponibilização da ontologia.
 
@@ -93,21 +63,22 @@ Os requisitos não funcionais estabelecem características de qualidade, fundame
 | RNF2 | Fundamentação na UFO | A modelagem conceitual da ontologia deverá utilizar a Unified Foundational Ontology (UFO) como ontologia de fundamentação. | Identificação dos conceitos fundamentados em categorias da UFO e disponibilização do modelo conceitual correspondente, preferencialmente em OntoUML. |
 | RNF3 | Documentação bilíngue | A documentação principal da ontologia deverá estar disponível em português e inglês. | Existência de documentação nos dois idiomas, incluindo apresentação, escopo, classes principais, relações e instruções de uso. |
 
-## Questões de competência
+## 6. Requisitos Funcionais - Questões de competência
 
 As questões de competência orientam a modelagem e poderão ser utilizadas na validação da ontologia.
 
 | ID | Questão de competência |
 |---|---|
-| `CQ01` | QC1 — Quais `AssessmentTask` ocorrem em `AssessmentProcessStage`? |
+| `CQ01` | Quais `AssessmentTask` ocorrem em `AssessmentProcessStage`? |
 | `CQ02` | Quais `AIUseLevel` são recomendados para `AssessmentTask`? |
 | `CQ03` | Quais `GenAI` apoiam `AssessmentTask`? |
+| `CQ04` | Quais  'ConstructValidityCheck' são considerados em 'AssessmentTask`? |
 
-## Visão geral do modelo
+## 7. Visão geral do modelo
 
 ![Visão Principal](OntoUML/Images/Principal.jpg)
 
-### Classes Centrais
+### 7.1. Classes Centrais
 
 | Classe | Termo em português | Descrição |
 |---|---|---|
@@ -115,7 +86,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `AssessmentTask` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
 | `GenAI` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
 
-### Etapas Avaliativas
+### 7.2. Etapas Avaliativas
 
 | Classe | Termo em português | Descrição |
 |---|---|---|
@@ -133,17 +104,15 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `AnswerGrading` | Correção de respostas | Processo de examinar respostas e emitir julgamento avaliativo. |
 | `Feedback` | Preparation. |
 | `Reflection` | Preparation. |
-
 | `AssessmentTask` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
-
 | `PersonalizedFeedback` | Feedback personalizado | Retorno avaliativo adaptado às evidências e necessidades de um estudante. |
 | `LearningGap` | Lacuna de aprendizagem | Conhecimento, habilidade ou aspecto do desempenho que demanda desenvolvimento. |
 
-## Visão Níveis da Taxonomia de Bloom
+## 8. Visão Níveis da Taxonomia de Bloom
 
 ![Visão Principal](OntoUML/Images/Niveisbloom.jpg)
 
-### Classes Centrais
+### 8.1. Classes Centrais
 
 | Classe | Significado |
 |---|---|
@@ -152,7 +121,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ---
 
-### Remember — Lembrar
+### 8.2. Remember — Lembrar
 
 | Classe | Significado |
 |---|---|
@@ -161,7 +130,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `InformationRecall` | Recordação de termos, definições ou informações anteriormente estudadas. |
 | `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
 
-### Understand — Compreender
+### 8.3. Understand — Compreender
 
 | Classe | Significado |
 |---|---|
@@ -170,7 +139,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `ConceptDiscussion` | Explicação e discussão de conceitos para demonstrar compreensão. |
 | `ReactionInference` | Inferência de reações pessoais ou profissionais diante de uma situação. |
 
-### Apply — Aplicar
+### 8.4. Apply — Aplicar
 
 | Classe | Significado |
 |---|---|
@@ -180,7 +149,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `AdaptiveProcessUse` | Seleção ou adaptação de processos conforme necessidades e características do contexto. |
 
 
-### Analyze — Analisar
+### 8.5. Analyze — Analisar
 
 | Classe | Significado |
 |---|---|
@@ -189,7 +158,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `TheoryPracticeAnalysis` | Análise crítica da aplicação de fundamentos teóricos em situações práticas. |
 | `BiasAndLimitationIdentification` | Identificação de vieses, limitações ou restrições presentes em determinada perspectiva. |
 
-### Evaluate — Avaliar
+### 8.6. Evaluate — Avaliar
 
 | Classe | Significado |
 |---|---|
@@ -198,7 +167,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `CriticalAssessment` | Produção de julgamentos fundamentados, críticas ou justificativas sobre um produto ou desempenho. |
 | `AssessmentProcessAppraisal` | Reflexão crítica sobre processos, estratégias ou experiências avaliativas. |
 
-### Create — Criar
+### 8.7. Create — Criar
 
 | Classe | Significado |
 |---|---|
@@ -207,7 +176,50 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `SolutionDesign` | Invenção ou proposição de plano ou solução. |
 | `SelfImprovementPlanning` | Mapeamento de transformações pessoais e planejamento de melhorias. |
 
+
+## 9. Visão IAGen
+
+![Visão Principal](OntoUML/Images/genai.jpg)
+
+### 9.1. Classes Centrais
+
+| Classe | Significado |
+|---|---|
+| `GenAI` | Nível cognitivo da Taxonomia Revisada de Bloom utilizado para organizar a complexidade das atividades avaliativas. |
+| `SystemDesign` | Objetivo avaliativo associado a um nível cognitivo, indicando a finalidade da atividade de avaliação. |
+
 ---
+
+### 9.2. Remember — Lembrar
+
+| Classe | Significado |
+|---|---|
+| `Notice` | Identificação inicial de itens, informações ou comportamentos presentes em uma situação. |
+| `Recognize` | Reconhecimento de exemplos, categorias ou padrões previamente apresentados. |
+| `InformationRecall` | Recordação de termos, definições ou informações anteriormente estudadas. |
+| `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
+
+
+## Relações previstas
+
+A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As relações devem ser confirmadas durante a formalização da ontologia.
+
+| Estereótipo | Significado |
+|---|---|
+| `componentOf` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `historicalDependence` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `creation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `participation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+| `participational` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+
+
+---
+|
+|
+\
+\
+\
+\
 
 ### Uso de IA no processo avaliativo
 
@@ -226,17 +238,11 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 
 
-## Relações previstas
 
-A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As relações devem ser confirmadas durante a formalização da ontologia.
 
-| Estereótipo | Significado |
-|---|---|
-| `componentOf` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
-| `historicalDependence` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
-| `creation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
-| `participation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
-| `participational` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
+
+
+
 
 ## Exemplo de aplicação
 
