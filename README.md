@@ -2,7 +2,6 @@
 
 <p align="center">
   <img alt="Domínio" src="https://img.shields.io/badge/dom%C3%ADnio-Avalia%C3%A7%C3%A3o%20da%20Aprendizagem-blue" />
-  <img alt="Tecnologia" src="https://img.shields.io/badge/tecnologia-IA%20Generativa-purple" />
   <img alt="Modelagem" src="https://img.shields.io/badge/modelagem-OntoUML-green" />
 </p>
 
