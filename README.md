@@ -105,7 +105,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ## Visão geral do modelo
 
-![Visão Principal](Images/Principal.jpg)
+![Visão Principal](OntoUML/Images/Principal.jpg)
 
 ### Classes Centrais
 
@@ -141,7 +141,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ## Visão Níveis da Taxonomia de Bloom
 
-![Visão Principal](Images/Niveisbloom.jpg)
+![Visão Principal](OntoUML/Images/Niveisbloom.jpg)
 
 ### Classes Centrais
 
