@@ -236,127 +236,6 @@ A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As
 | `BloomTaxonomyLevel` | Nível da Taxonomia de Bloom | Categoria cognitiva: recordar, compreender, aplicar, analisar, avaliar ou criar. |
 | `CognitiveProcessVerb` | Verbo do processo cognitivo | Verbo que expressa a ação cognitiva esperada em um objetivo de aprendizagem. |
 
-
-
-
-
-
-
-
-
-## Exemplo de aplicação
-
-### Cenário
-
-Um professor define uma tarefa na qual o estudante deve propor uma solução para um problema educacional. O professor permite que a IA seja utilizada para geração inicial de ideias, mas exige que o produto final seja elaborado e justificado pelo estudante.
-
-### Instâncias conceituais
-
-| Elemento | Exemplo de instância | Classe |
-|---|---|---|
-| Professor | `teacherHeraldo` | `Teacher` |
-| Tarefa | `proposeEducationalSolutionTask` | `AssessmentTask` |
-| Nível de Bloom | `createLevel` | `BloomTaxonomyLevel` |
-| Objetivo de avaliação | `solutionDesignGoal` | `SolutionDesign` |
-| Uso permitido de IA | `ideaGenerationSupport` | `AIAssistedIdeation` |
-| Feedback | `solutionJustificationFeedback` | `PersonalizedFeedback` |
-
-### Representação ilustrativa em Turtle
-
-```turtle
-@prefix ontoavalia: <https://example.org/ontoavalia#> .
-
-ontoavalia:teacherHeraldo a ontoavalia:Teacher ;
-    ontoavalia:performs ontoavalia:solutionTaskPlanning .
-
-ontoavalia:proposeEducationalSolutionTask a ontoavalia:AssessmentTask ;
-    ontoavalia:hasGoal ontoavalia:solutionDesignGoal ;
-    ontoavalia:targetsBloomLevel ontoavalia:createLevel ;
-    ontoavalia:allowsAIUse ontoavalia:ideaGenerationSupport .
-
-ontoavalia:solutionDesignGoal a ontoavalia:SolutionDesign .
-ontoavalia:createLevel a ontoavalia:BloomTaxonomyLevel .
-ontoavalia:ideaGenerationSupport a ontoavalia:AIAssistedIdeation .
-```
-
-> A URI `https://example.org/ontoavalia#` é ilustrativa e deve ser substituída pelo namespace oficial após a publicação da ontologia.
-
-## Como utilizar
-
-### Para professores
-
-1. Defina o objetivo de aprendizagem da atividade.
-2. Selecione o nível de Bloom e o objetivo avaliativo correspondente.
-3. Determine se a IAGen será permitida e em qual modalidade.
-4. Crie questões e rubricas coerentes com os objetivos selecionados.
-5. Utilize o modelo para orientar correção, feedback e identificação de lacunas.
-
-### Para desenvolvedores
-
-1. Utilize o arquivo OWL/RDF da ontologia como vocabulário de domínio.
-2. Associe tarefas do AVA aos níveis de Bloom, objetivos avaliativos e modalidades de IA.
-3. Implemente consultas para recomendar tipos de assistência ou identificar incompatibilidades.
-4. Registre feedbacks e lacunas sem automatizar decisões críticas sem supervisão humana.
-
-### Para pesquisadores
-
-1. Utilize as questões de competência para avaliar cobertura conceitual.
-2. Proponha extensões, como competências colaborativas, políticas institucionais ou evidências de aprendizagem.
-3. Registre novos cenários de uso e resultados de validação na pasta `validation/`.
-
-
-## Artefatos e documentação
-
-| Artefato | Caminho sugerido | Status |
-|---|---|---|
-| Página principal do projeto | `README.md` | Disponível nesta versão inicial |
-| Glossário de classes | `docs/glossary.md` | Elaborado |
-| Questões de competência | `docs/competency-questions.md` | Versão inicial disponível nesta página |
-| Modelo conceitual OntoUML | `diagrams/ontoavalia-ontouml.svg` | A desenvolver |
-| Implementação OWL | `ontology/ontoavalia.owl` | A desenvolver |
-| Serialização Turtle | `ontology/ontoavalia.ttl` | A desenvolver |
-| Consultas SPARQL de validação | `examples/sparql-queries.md` | A desenvolver |
-| Resultados de validação com especialistas | `validation/expert-evaluation.md` | A desenvolver |
-
-## Convenções de nomenclatura
-
-
-### Nomes alternativos registrados durante a modelagem
-
-<details>
-<summary>Visualizar termos alternativos e refinamentos</summary>
-
-| Nome | Uso ou observação |
-|---|---|
-| `Instructor` | Alternativa a `Teacher` para representar o docente responsável por uma disciplina. |
-| `ImprovementAreaIdentification` | Nome inicial para identificação de pontos a melhorar. |
-| `GapIdentification` | Alternativa para o processo de detectar lacunas. |
-| `ImprovementNeed` | Alternativa quando se representa a necessidade identificada e não o processo. |
-| `AIAssistedIdeaGenerationAndStructuring` | Nome expandido refinado para `AIAssistedIdeation`. |
-| `AICompletionWithHumanEvaluation` | Nome inicial refinado para `HumanEvaluatedAICompletion`. |
-| `KnowledgeDimensionVerb` | Nome inicial substituído por `CognitiveProcessVerb`, mais coerente com Bloom. |
-| `RetentionTechniqueIdentification` | Nome processual sintetizado como `RetentionStrategy`. |
-| `KeyConceptOutlining` | Nome processual sintetizado como `ConceptOutline`. |
-| `AssociationBasedIdentification` | Nome inicial sintetizado como `AssociationMapping`. |
-| `ConceptExplanationAndDiscussion` | Nome inicial sintetizado como `ConceptDiscussion`. |
-| `PersonalReactionInference` | Nome expandido sintetizado como `ReactionInference`. |
-| `ProceduralQuestionAnswering` | Nome expandido sintetizado como `ProceduralAnswering`. |
-| `ProcedureExplanation` | Alternativa quando se deseja representar explicação de procedimento. |
-
-</details>
-
-## Validação e evolução
-
-A evolução da ontologia poderá seguir um ciclo iterativo de especificação, conceptualização, formalização, implementação e avaliação. As seguintes estratégias são previstas:
-
-| Estratégia | Finalidade |
-|---|---|
-| Validação por questões de competência | Verificar se a ontologia responde às perguntas definidas para o domínio. |
-| Avaliação por especialistas | Analisar clareza, relevância e suficiência dos conceitos e relações. |
-| Verificação lógica | Avaliar consistência, restrições e inferências na implementação OWL. |
-| Cenários de uso | Observar a aplicabilidade em tarefas avaliativas reais ou simuladas. |
-| Revisão de terminologia | Ajustar nomes, definições e hierarquias conforme evidências e feedback. |
-
 ## Como citar
 
 Enquanto a ontologia estiver em desenvolvimento e sem publicação formal, recomenda-se utilizar a seguinte referência provisória, ajustando ano, URL e versão no momento de disponibilização pública:
@@ -368,7 +247,7 @@ Enquanto a ontologia estiver em desenvolvimento e sem publicação formal, recom
   year         = {2026},
   howpublished = {Repositório GitHub},
   note         = {Versão em desenvolvimento},
-  url          = {INSERIR_URL_DO_REPOSITORIO}
+  url          = {https://github.com/heraldolimajr/OntoAvalIA}
 }
 ```
 
