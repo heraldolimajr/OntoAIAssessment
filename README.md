@@ -229,12 +229,6 @@ A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As
 | `participational` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 
 
-## Licença
-
-A licença da ontologia e de sua documentação deve ser definida antes da publicação. Para artefatos acadêmicos e vocabulários reutilizáveis, uma alternativa comum é a licença [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), desde que compatível com as decisões do autor e da instituição.
-
-Substitua esta seção pela licença efetivamente adotada e inclua o arquivo `LICENSE` na raiz do repositório.
-
 ## Referências
 
 ILIEVA, Galina et al. A framework for generative AI-driven assessment in higher education. Information, v. 16, n. 6, p. 472, 2025.
