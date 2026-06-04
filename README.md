@@ -204,20 +204,23 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `Sound` | Conteúdo em formato de áudio. |
 | `3DModel` | Conteúdo em formato de modelo 3D. |
 
-#### 9.2.1 Media - De acordo com a modalidade
+#### 9.2.1 Modality - De acordo com a modalidade
 
 | Classe | Significado |
 |---|---|
-| `Modality` | Reconhecimento de exemplos, categorias ou padrões previamente apresentados. |
-| `Operation` | Recordação de termos, definições ou informações anteriormente estudadas. |
-| `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
+| `Modality` | Diz respeito a quantos tipos de dados podem ser manipulados simultaneamente. |
+| `OneToOne` | Aplicações um-para-um processamuma entrada para gerar uma saída. |
+| `OneToMany` | Aplicações classificadas como um‑para‑muitos produzem diversas saídas, como descrições em texto e imagens, a partir de uma mesma entrada única. |
+| `ManyToOne` | Aplicações muitos‑para‑um processam múltiplas entradas de forma integrada para gerar uma saída. |
+| `ManyToMany` | Aplicações muitos‑para‑muitos processam múltiplas entradas de forma integrada para gerar saídas diversas. |
 
-#### 9.2.1 Media - De acordo com o tipo de operação
+#### 9.2.1 Operation - De acordo com o tipo de operação
 
 | Classe | Significado |
 |---|---|
-| `Operation` | Recordação de termos, definições ou informações anteriormente estudadas. |
-| `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
+| `Operation` | Se refere a como a aplicação será implementada. |
+| `OnPremisse` | aplicação local. |
+| `Managed` | Aplicação hospedada em uma plataforma de terceiros. |
 
 
 ## Relações previstas
@@ -256,157 +259,13 @@ Substitua esta seção pela licença efetivamente adotada e inclua o arquivo `LI
 
 ## Referências
 
+ILIEVA, Galina et al. A framework for generative AI-driven assessment in higher education. Information, v. 16, n. 6, p. 472, 2025.
+
 KALDARAS, Leonora; AKAEZE, Hope O.; RECKASE, Mark D. Developing valid assessments in the era of generative artificial intelligence. In: Frontiers in education. Frontiers Media SA, 2024. p. 1399377.
 
 PAGE, Eric; MEYERS, Gretchen; BILLINGS, Eve Krahe. Theory to Practice: A Framework for Generative AI. Intersection: A Journal at the Intersection of Assessment and Learning, v. 5, n. 4, p. 114-126, 2024.
 
+PERKINS, M. et al. The AI Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment (2023). arXiv [em linha].
 
-
----
-|
-|
-\
-\
-\
-\
-
-### Uso de IA no processo avaliativo
-
-| Classe | Termo em português | Descrição |
-|---|---|---|
-| `AIAssistedIdeation` | Ideação assistida por IA | Uso da IA para gerar, explorar ou organizar ideias iniciais. |
-| `AIAssistedEditing` | Edição assistida por IA | Uso da IA para revisar, aperfeiçoar ou reorganizar conteúdo produzido. |
-| `HumanEvaluatedAICompletion` | Execução pela IA com avaliação humana | Uso em que a IA realiza parte ou toda a tarefa, com análise crítica humana do resultado. |
-
-### Estruturas cognitivas e avaliativas
-
-| Classe | Termo em português | Descrição |
-|---|---|---|
-| `BloomTaxonomyLevel` | Nível da Taxonomia de Bloom | Categoria cognitiva: recordar, compreender, aplicar, analisar, avaliar ou criar. |
-| `CognitiveProcessVerb` | Verbo do processo cognitivo | Verbo que expressa a ação cognitiva esperada em um objetivo de aprendizagem. |
-
-
-# Glossário de classes para a ontologia de avaliação com IA generativa
-
-## Escopo
-
-Este glossário reúne os nomes de classes produzidos durante a modelagem da ontologia. Os identificadores são apresentados em inglês, no padrão `PascalCase`, para uso em modelos conceituais, OntoUML ou implementação posterior em OWL/RDF.
-
-Os nomes relacionados aos objetivos de avaliação foram traduzidos e sintetizados a partir da coluna `Goal of Assessment` do framework de Page, Meyers e Krahe Billings (2024), organizada segundo os níveis da Taxonomia Revisada de Bloom.
-
-## Classes recomendadas
-
-### Planejamento, atores e artefatos avaliativos
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `LearningObjectiveDefinition` | Definição dos objetivos de aprendizagem | Processo de estabelecer os resultados de aprendizagem que orientarão atividades e avaliações. |
-| `RubricCreation` | Criação de rubricas | Processo de elaborar critérios e níveis de desempenho para orientar a avaliação. |
-| `QuestionCreation` | Criação de questões | Processo de formular perguntas ou itens que compõem uma tarefa avaliativa. |
-| `PermittedAIUseLevelDefinition` | Definição dos níveis permitidos de uso de IA | Processo de estabelecer limites e formas autorizadas de uso de IA em uma avaliação. |
-| `Teacher` | Professor | Agente docente responsável pelo planejamento, condução ou avaliação da aprendizagem. |
-| `AssessmentTask` | Tarefa avaliativa | Atividade proposta ao estudante para produzir evidências de aprendizagem. |
-| `AnswerGrading` | Correção de respostas | Processo de examinar e atribuir julgamento avaliativo às respostas apresentadas. |
-| `PersonalizedFeedback` | Feedback personalizado | Retorno avaliativo adaptado às evidências, necessidades ou desempenho de um estudante. |
-| `LearningGap` | Lacuna de aprendizagem | Necessidade de desenvolvimento identificada no conhecimento ou desempenho do estudante. |
-
-### Uso de inteligência artificial no processo avaliativo
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `AIAssistedIdeation` | Ideação assistida por IA | Uso de IA para gerar, explorar ou organizar ideias iniciais para uma tarefa. |
-| `AIAssistedEditing` | Edição assistida por IA | Uso de IA para revisar, aperfeiçoar ou reorganizar um conteúdo produzido. |
-| `HumanEvaluatedAICompletion` | Execução pela IA com avaliação humana | Situação em que a IA executa parte ou toda a tarefa e uma pessoa avalia criticamente o resultado. |
-
-### Estruturas da Taxonomia de Bloom
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `BloomTaxonomyLevel` | Nível da Taxonomia de Bloom | Categoria do processo cognitivo, como recordar, compreender, aplicar, analisar, avaliar ou criar. |
-| `CognitiveProcessVerb` | Verbo do processo cognitivo | Verbo que expressa a ação cognitiva esperada do estudante em um objetivo de aprendizagem. |
-| `AssessmentGoal` | Objetivo da avaliação | Finalidade avaliativa associada a um nível de Bloom e a uma dimensão do conhecimento. |
-
-## Objetivos de avaliação associados à Taxonomia de Bloom
-
-As classes a seguir podem ser modeladas como especializações de `AssessmentGoal`.
-
-### Remember - Recordar
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `Itemization` | Enumeração de itens | Objetivo de listar ou enumerar elementos relevantes. |
-| `Recognition` | Reconhecimento | Objetivo de reconhecer ou observar ocorrências, exemplos ou padrões. |
-| `Recall` | Recordação | Objetivo de recuperar informações previamente aprendidas. |
-| `RetentionStrategy` | Estratégia de retenção | Objetivo de identificar ou empregar técnicas que favoreçam a retenção de informações. |
-
-### Understand - Compreender
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `ConceptOutline` | Esquematização de conceitos | Objetivo de delinear ou sintetizar os conceitos-chave de um conteúdo. |
-| `AssociationMapping` | Mapeamento por associação | Objetivo de organizar ou identificar itens por relações de associação. |
-| `ConceptDiscussion` | Discussão de conceito | Objetivo de explicar e discutir um conceito para demonstrar compreensão. |
-| `ReactionInference` | Inferência de reação | Objetivo de inferir reações pessoais diante de informações ou situações. |
-
-### Apply - Aplicar
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `ProceduralAnswering` | Resposta a questões procedimentais | Objetivo de responder a questões sobre etapas, métodos ou procedimentos. |
-| `SituationGuidance` | Orientação para situação | Objetivo de recomendar ou escolher a melhor forma de agir em uma situação. |
-| `ProcedureExecution` | Execução de procedimento | Objetivo de seguir processos, usar programas, solucionar problemas ou realizar tarefas. |
-| `AdaptiveProcessUse` | Uso adaptativo de processo | Objetivo de empregar o processo mais adequado às necessidades ou habilidades envolvidas. |
-
-### Analyze - Analisar
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `ProblemIdentification` | Identificação de problemas | Objetivo de identificar problemas ou selecionar conjuntos de problemas mais completos. |
-| `ComparativeAnalysis` | Análise comparativa | Objetivo de comparar, contrastar, classificar, distinguir ou examinar partes de um fenômeno. |
-| `TheoryPracticeAnalysis` | Análise da teoria na prática | Objetivo de decompor e analisar criticamente a aplicação prática de uma teoria. |
-| `BiasAndLimitationIdentification` | Identificação de vieses e limitações | Objetivo de reconhecer vieses e limites associados a uma perspectiva. |
-
-### Evaluate - Avaliar
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `ComplianceAndConsistencyEvaluation` | Avaliação de conformidade e consistência | Objetivo de verificar a execução de procedimentos e a consistência das fontes ou evidências. |
-| `SolutionPrioritization` | Priorização de soluções | Objetivo de discernir e priorizar a melhor solução ou processo disponível. |
-| `CriticalAssessment` | Avaliação crítica | Objetivo de avaliar, sintetizar, interpretar, concluir, justificar ou criticar. |
-| `AssessmentProcessAppraisal` | Apreciação do processo avaliativo | Objetivo de julgar ou refletir sobre o próprio processo de avaliação. |
-
-### Create - Criar
-
-| Classe | Significado em português | Definição para a ontologia |
-|---|---|---|
-| `ListDevelopment` | Desenvolvimento de lista | Objetivo de produzir uma lista original de ideias, tópicos ou alternativas. |
-| `ProductComposition` | Composição de produto | Objetivo de organizar intencionalmente inter-relações para constituir um produto final. |
-| `SolutionDesign` | Projeto de solução | Objetivo de inventar ou propor um plano ou solução. |
-| `SelfImprovementPlanning` | Planejamento de autoaperfeiçoamento | Objetivo de mapear mudanças pessoais e planejar melhorias. |
-
-## Nomes alternativos ou refinados durante a modelagem
-
-| Classe gerada | Significado em português | Observação de modelagem |
-|---|---|---|
-| `Instructor` | Professor/instrutor | Alternativa a `Teacher` quando o ator representa especificamente o docente responsável por uma disciplina ou atividade. |
-| `ImprovementAreaIdentification` | Identificação de pontos a melhorar | Nome inicial para o processo de identificar áreas passíveis de melhoria. |
-| `GapIdentification` | Identificação de lacunas | Alternativa reduzida para o processo de detectar lacunas de aprendizagem. |
-| `WeaknessIdentification` | Identificação de fragilidades | Alternativa com ênfase em dificuldades; uso menos recomendado por possuir conotação negativa. |
-| `ImprovementIdentification` | Identificação de melhorias | Alternativa curta para representar a identificação de possibilidades de melhoria. |
-| `ImprovementNeed` | Necessidade de melhoria | Alternativa para representar o resultado identificado, em vez do processo de identificação. |
-| `AIAssistedIdeaGenerationAndStructuring` | Geração e estruturação de ideias assistidas por IA | Nome expandido posteriormente reduzido para `AIAssistedIdeation`. |
-| `AICompletionWithHumanEvaluation` | Realização da tarefa pela IA com avaliação humana | Nome inicial posteriormente refinado para `HumanEvaluatedAICompletion`. |
-| `KnowledgeDimensionVerb` | Verbo da dimensão do conhecimento | Nome inicialmente proposto; substituído conceitualmente por `CognitiveProcessVerb`, pois os verbos se vinculam ao processo cognitivo. |
-| `RetentionTechniqueIdentification` | Identificação de técnicas de retenção | Nome de processo associado ao objetivo posteriormente sintetizado como `RetentionStrategy`. |
-| `KeyConceptOutlining` | Delineamento de conceitos-chave | Nome de processo associado ao objetivo posteriormente sintetizado como `ConceptOutline`. |
-| `AssociationBasedIdentification` | Identificação baseada em associação | Nome inicial posteriormente sintetizado como `AssociationMapping`. |
-| `ConceptExplanationAndDiscussion` | Explicação e discussão de conceito | Nome inicial posteriormente sintetizado como `ConceptDiscussion`. |
-| `PersonalReactionInference` | Inferência de reação pessoal | Nome expandido posteriormente sintetizado como `ReactionInference`. |
-| `ProceduralQuestionAnswering` | Resposta a questões procedimentais | Nome expandido posteriormente sintetizado como `ProceduralAnswering`. |
-| `ProcedureExplanation` | Explicação de procedimento | Alternativa quando a classe representa explicar um procedimento, não responder a uma questão. |
-
-## Referência de origem dos objetivos de avaliação
-
-
-
+STROBEL, Gero et al. Exploring generative artificial intelligence: A taxonomy and types. 2024.
 
