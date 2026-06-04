@@ -120,7 +120,9 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `AssessmentGoal` | Objetivo avaliativo associado a um nível cognitivo, indicando a finalidade da atividade de avaliação. |
 
 
-### 8.2. Remember — Lembrar
+### 8.2 Níveis da Taxonomia
+
+#### 8.2.1. Remember — Lembrar
 
 | Classe | Significado |
 |---|---|
@@ -129,7 +131,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `InformationRecall` | Recordação de termos, definições ou informações anteriormente estudadas. |
 | `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
 
-### 8.3. Understand — Compreender
+#### 8.2.2. Understand — Compreender
 
 | Classe | Significado |
 |---|---|
@@ -138,7 +140,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `ConceptDiscussion` | Explicação e discussão de conceitos para demonstrar compreensão. |
 | `ReactionInference` | Inferência de reações pessoais ou profissionais diante de uma situação. |
 
-### 8.4. Apply — Aplicar
+#### 8.2.3. Apply — Aplicar
 
 | Classe | Significado |
 |---|---|
@@ -148,7 +150,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `AdaptiveProcessUse` | Seleção ou adaptação de processos conforme necessidades e características do contexto. |
 
 
-### 8.5. Analyze — Analisar
+#### 8.2.4. Analyze — Analisar
 
 | Classe | Significado |
 |---|---|
@@ -157,7 +159,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `TheoryPracticeAnalysis` | Análise crítica da aplicação de fundamentos teóricos em situações práticas. |
 | `BiasAndLimitationIdentification` | Identificação de vieses, limitações ou restrições presentes em determinada perspectiva. |
 
-### 8.6. Evaluate — Avaliar
+#### 8.2.5. Evaluate — Avaliar
 
 | Classe | Significado |
 |---|---|
@@ -166,7 +168,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `CriticalAssessment` | Produção de julgamentos fundamentados, críticas ou justificativas sobre um produto ou desempenho. |
 | `AssessmentProcessAppraisal` | Reflexão crítica sobre processos, estratégias ou experiências avaliativas. |
 
-### 8.7. Create — Criar
+#### 8.2.6. Create — Criar
 
 | Classe | Significado |
 |---|---|
