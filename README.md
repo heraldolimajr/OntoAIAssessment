@@ -235,21 +235,6 @@ A tabela apresenta propriedades candidatas para a implementação em OWL/RDF. As
 | `participation` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 | `participational` | Indica que o professor realiza uma atividade de planejamento ou avaliação. |
 
-## Como citar
-
-Enquanto a ontologia estiver em desenvolvimento e sem publicação formal, recomenda-se utilizar a seguinte referência provisória, ajustando ano, URL e versão no momento de disponibilização pública:
-
-```bibtex
-@misc{ontoavalia2026,
-  author       = {Lima Junior, Heraldo Gonçalves and Silva, Patrício},
-  title        = {OntoAvalIA: Ontologia para Avaliação da Aprendizagem Apoiada por Inteligência Artificial Generativa},
-  year         = {2026},
-  howpublished = {Repositório GitHub},
-  note         = {Versão em desenvolvimento},
-  url          = {https://github.com/heraldolimajr/OntoAvalIA}
-}
-```
-
 
 ## Licença
 
