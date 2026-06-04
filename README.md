@@ -120,7 +120,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `AssessmentGoal` | Objetivo avaliativo associado a um nível cognitivo, indicando a finalidade da atividade de avaliação. |
 
 
-### 8.2 Níveis da Taxonomia
+### 8.2 Níveis e Dimensões do Conhecimento
 
 #### 8.2.1. Remember — Lembrar
 
