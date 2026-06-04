@@ -119,7 +119,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 | `BloomTaxonomyLevel` | Nível cognitivo da Taxonomia Revisada de Bloom utilizado para organizar a complexidade das atividades avaliativas. |
 | `AssessmentGoal` | Objetivo avaliativo associado a um nível cognitivo, indicando a finalidade da atividade de avaliação. |
 
----
 
 ### 8.2. Remember — Lembrar
 
@@ -187,8 +186,6 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 |---|---|
 | `GenAI` | IA Generativa (IAGen) |
 | `SystemDesign` | Classificação dos tipos de IAGen de acordo com o design do sistema |
-
----
 
 ### 9.2. Subtipos de IAGen
 
