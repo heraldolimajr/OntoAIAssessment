@@ -87,25 +87,25 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ### 7.2. Etapas Avaliativas
 
-| Classe | Termo em português | Descrição |
-|---|---|---|
-| `AssessmentProcess` | Etapas do processo de avaliação da aprendizagem. |
-| `Planning` | Etapas do processo de avaliação da aprendizagem. |
-| `LearningOutcomesDefinition` | Definição dos resultados de aprendizagem de aprendizagem | Processo de estabelecer resultados de aprendizagem que orientam atividades e avaliações. |
-| `RubricCreation` | Criação de rubricas | Processo de elaborar critérios e níveis de desempenho para uma avaliação. |
-| `AssessmentGoal` | Objetivo da avaliação | Finalidade avaliativa associada a um nível de Bloom e a uma dimensão do conhecimento. |
-| `QuestionCreation` | Criação de questões | Processo de formular perguntas ou itens de uma tarefa avaliativa. |
-| `PermittedAIUseLevelDefinition` | Definição dos níveis permitidos de uso de IA | Processo de estabelecer limites e formas autorizadas de participação da IA. |
-| `Preparation` | Preparation. |
-| `FormativeAssessment` | Preparation. |
-| `SummativeAssessment` | Preparation. |
-| `Analysis` | Preparation. |
-| `AnswerGrading` | Correção de respostas | Processo de examinar respostas e emitir julgamento avaliativo. |
-| `Feedback` | Preparation. |
-| `Reflection` | Preparation. |
-| `AssessmentTask` | Tarefa avaliativa | Atividade proposta para produzir evidências de aprendizagem. |
-| `PersonalizedFeedback` | Feedback personalizado | Retorno avaliativo adaptado às evidências e necessidades de um estudante. |
-| `LearningGap` | Lacuna de aprendizagem | Conhecimento, habilidade ou aspecto do desempenho que demanda desenvolvimento. |
+| Classe | Descrição |
+|---|---|
+| `AssessmentProcess` | Processo geral de avaliação da aprendizagem, composto por etapas articuladas que envolvem planejamento, preparação, aplicação, análise, feedback e reflexão sobre os resultados obtidos. |
+| `Planning` | Etapa inicial do processo avaliativo, na qual são definidos os resultados de aprendizagem, os formatos de avaliação, os critérios de correção, as rubricas e as condições de uso da IA generativa. |
+| `LearningOutcomesDefinition` | Processo de definição dos resultados de aprendizagem esperados, que orientam a seleção das tarefas avaliativas, dos critérios de desempenho e das evidências necessárias para verificar a aprendizagem. |
+| `RubricCreation` | Processo de elaboração de rubricas avaliativas, com definição de critérios, níveis de desempenho e orientações de pontuação para apoiar a correção, o feedback e a consistência da avaliação. |
+| `AssessmentGoal` | Finalidade pedagógica da avaliação, associada aos resultados de aprendizagem, ao nível cognitivo pretendido, ao tipo de evidência coletada e ao uso formativo ou somativo da atividade. |
+| `QuestionCreation` | Processo de criação de questões, itens, prompts ou tarefas avaliativas alinhadas aos objetivos da avaliação, aos conteúdos do curso, aos resultados de aprendizagem e aos critérios definidos. |
+| `PermittedAIUseLevelDefinition` | Processo de definição dos limites, condições e formas autorizadas de uso da IA generativa em uma atividade avaliativa, indicando como estudantes, professores e sistemas podem utilizar a tecnologia. |
+| `Preparation` | Etapa de preparação e treinamento para a avaliação, na qual são organizados materiais de estudo, atividades formativas, bancos de questões, simulações, instruções e recursos de apoio aos estudantes. |
+| `FormativeAssessment` | Modalidade de avaliação voltada ao acompanhamento contínuo da aprendizagem, geralmente associada a atividades de menor impacto, autoavaliações, quizzes, práticas orientadas e feedback imediato. |
+| `SummativeAssessment` | Modalidade de avaliação voltada à verificação do desempenho alcançado ao final de uma unidade, módulo, disciplina ou curso, podendo envolver provas, exames finais, projetos ou tarefas de maior impacto acadêmico. |
+| `Analysis` | Etapa de análise das evidências avaliativas, na qual respostas, produtos, interações, notas, padrões de desempenho e registros de participação são examinados para identificar avanços, dificuldades e necessidades de intervenção. |
+| `AnswerGrading` | Processo de correção de respostas ou produções dos estudantes, realizado com base em critérios e rubricas previamente definidos, podendo contar com apoio da IA para pontuação preliminar, padronização e análise de consistência. |
+| `Feedback` | Etapa de devolutiva avaliativa, na qual são comunicadas informações sobre o desempenho do estudante, incluindo comentários, justificativas, recomendações e orientações para melhoria da aprendizagem. |
+| `Reflection` | Etapa de reflexão e melhoria, na qual estudantes, professores e/ou instâncias institucionais analisam os resultados da avaliação, identificam oportunidades de aprimoramento e planejam ajustes para ciclos posteriores. |
+| `AssessmentTask` | Atividade avaliativa proposta ao estudante para produzir evidências de aprendizagem, podendo assumir diferentes formatos, como questão, quiz, prova, projeto, simulação, tarefa prática, produção textual ou atividade colaborativa. |
+| `PersonalizedFeedback` | Feedback adaptado ao desempenho, às necessidades e às lacunas de aprendizagem de um estudante ou grupo, podendo incluir recomendações individualizadas, explicações adicionais e orientações para autorregulação. |
+| `LearningGap` | Lacuna de aprendizagem identificada a partir da análise das evidências avaliativas, indicando conceitos, habilidades, competências ou critérios de desempenho que ainda demandam desenvolvimento ou intervenção pedagógica. |
 
 ## 8. Visão Níveis da Taxonomia de Bloom
 
