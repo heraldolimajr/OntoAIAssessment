@@ -7,13 +7,6 @@
 
 A `OntoAvalIA` é uma ontologia educacional voltada ao apoio de professores no planejamento e na condução de processos avaliativos mediados ou apoiados por Inteligência Artificial Generativa (IAGen). A proposta relaciona atividades do processo avaliativo, níveis da Taxonomia Revisada de Bloom, objetivos de avaliação e formas permitidas de uso de IA.
 
-A ontologia busca tornar explícitas perguntas como:
-
-- qual objetivo avaliativo está associado a uma tarefa;
-- qual nível cognitivo da Taxonomia de Bloom é mobilizado;
-- como a IA pode apoiar uma atividade sem substituir indevidamente a autoria ou o julgamento humano;
-- quais feedbacks e lacunas de aprendizagem podem ser identificados a partir da avaliação.
-
 ## 1. Objetivo
 
 O objetivo da `OntoAvalIA` é representar formalmente conceitos e relações necessários para recomendar e analisar usos de IAGen em atividades avaliativas, considerando os níveis cognitivos e objetivos de avaliação da Taxonomia Revisada de Bloom e o tipo e o limite de participação da IA na atividade.
