@@ -184,18 +184,39 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 | Classe | Significado |
 |---|---|
-| `GenAI` | Nível cognitivo da Taxonomia Revisada de Bloom utilizado para organizar a complexidade das atividades avaliativas. |
-| `SystemDesign` | Objetivo avaliativo associado a um nível cognitivo, indicando a finalidade da atividade de avaliação. |
+| `GenAI` | IA Generativa (IAGen) |
+| `SystemDesign` | Classificação dos tipos de IAGen de acordo com o design do sistema |
 
 ---
 
-### 9.2. Remember — Lembrar
+### 9.2. Subtipos de IAGen
+
+#### 9.2.1 Media - De acordo com o tipo de mídia de entrada e/ou saída
 
 | Classe | Significado |
 |---|---|
-| `Notice` | Identificação inicial de itens, informações ou comportamentos presentes em uma situação. |
-| `Recognize` | Reconhecimento de exemplos, categorias ou padrões previamente apresentados. |
-| `InformationRecall` | Recordação de termos, definições ou informações anteriormente estudadas. |
+| `Media` | Tipo de mídia aceita. |
+| `Input` | Mídia de entrada. |
+| `Output` | Mídia de Saída. |
+| `Text` | Conteúdo em formato de texto. |
+| `Image` | Conteúdo em formato de imagem. |
+| `Video` | Conteúdo em formato de vídeo. |
+| `Sound` | Conteúdo em formato de áudio. |
+| `3DModel` | Conteúdo em formato de modelo 3D. |
+
+#### 9.2.1 Media - De acordo com a modalidade
+
+| Classe | Significado |
+|---|---|
+| `Modality` | Reconhecimento de exemplos, categorias ou padrões previamente apresentados. |
+| `Operation` | Recordação de termos, definições ou informações anteriormente estudadas. |
+| `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
+
+#### 9.2.1 Media - De acordo com o tipo de operação
+
+| Classe | Significado |
+|---|---|
+| `Operation` | Recordação de termos, definições ou informações anteriormente estudadas. |
 | `RetentionStrategy` | Identificação de estratégias para melhorar a retenção de informações. |
 
 
