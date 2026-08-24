@@ -68,7 +68,7 @@ As questões de competência orientam a modelagem e poderão ser utilizadas na v
 
 ## 7. Visão geral do modelo
 
-![Visão Principal](OntoUML/Images/VisaoPrincipalNova.jpg)
+![Visão Principal](OntoUML/Images/VisaoPrincipalNova.png)
 
 ### 7.1. Classes Centrais
 
